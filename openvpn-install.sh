@@ -893,6 +893,7 @@ cert $SERVER_NAME.crt
 key $SERVER_NAME.key
 auth $HMAC_ALG
 cipher $CIPHER
+dhcp-option DNS 192.168.1.1
 ncp-ciphers $CIPHER
 tls-server
 tls-version-min 1.2
